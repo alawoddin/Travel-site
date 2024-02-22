@@ -1,0 +1,103 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* //blong to start  */
+
+#box1 {
+    justify-content: space-around;
+}
+
+  
+#left , #right {
+    width: 20%;
+    height: 40px;
+    background-color: black;
+    padding: 8px;
+}
+
+#bor {
+    border-right: 1px solid white;
+}
+
+#your , .col-2 {
+    border: 2px solid black;
+    background-color: aqua;
+    padding: 20px;
+    padding-left: 20px;
+    /* text-transform: uppercase; */
+}
+
+#first {
+    padding-top: 60px;
+}
+
+/* //day input  */
+
+#day input  {
+    width: 30%;
+}
+
+#connect a {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+
+#day input  {
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+
+
+/* //body  */
+
+#body {
+    display: flex;
+    justify-content: center;
+}
+
+/* //main  */
+
+#main {
+    padding: 50px 10px;
+    display: flex;
+    justify-content: start;
+    gap: 0px;
+    width: 90%;
+    background-color: aqua;
+}
+
+/* // id for information  */
+
+#ticket {
+    width: 90%;
+    height: 600px;
+    /* background-color: blueviolet; */
+    margin: 0 auto;
+}
+
+/* //information col  */
+
+.col-6 {
+    /* border: 2px solid green; */
+    margin: 10px 0px;
+}
+
+/* //img  */
+
+#imgs img  , #imgs1 img , #imgs2 img ,#imgs3 img  {
+    width: 100%;
+    height: 100%;
+}
+
+/* //id second last second section  */
+
+#near .col-3 {
+    border: 2px solid black;
+    height: 250px;
+}
